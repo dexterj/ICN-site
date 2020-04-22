@@ -48,6 +48,8 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	img { max-width: 100%;}
+
 /* Box Model */
 
 	*, *:before, *:after {
