@@ -58,6 +58,13 @@
 		box-sizing: border-box;
 	}
 
+/* Flexbox */
+
+.flexbox  { display: flex; align-items: flex-start; justify-content: space-around; flex-flow: row wrap; margin: 2em 0;}
+.subgroup { flex: 1 1 300px; }
+.subgroup.image { max-width: 400px; padding: 0 2em;}
+.subgroup.image img { max-width: 100%; margin-bottom: 2em; }
+
 /* Containers */
 
 	.container {
